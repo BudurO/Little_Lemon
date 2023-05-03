@@ -1,0 +1,147 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo-little-lemon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 26px;
+}
+.little-lemon {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  object-fit: cover;
+}
+.nav {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav-link:hover {
+  background-color: rgb(225, 225, 67);
+  border: 1px solid rgb(225, 225, 67);
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 11px;
+  padding-top: 8px;
+}
+.border-img {
+  width: 1200px;
+  height: 200px;
+}
+.img-discount {
+  width: 1200px;
+  height: 200px;
+}
+.img-dicount-Off {
+  width: 1340px;
+  height: 200px;
+  margin-left: 60px;
+  margin-top: 30px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.dicount {
+  position: relative;
+  top: -150px;
+  left: 60px;
+}
+.text-dicount-Off {
+  color: rgb(30, 30, 30);
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 0;
+  display: flex;
+  line-height: 11px;
+  padding-bottom: 46px;
+  animation-name: color;
+  animation-duration: 4s;
+}
+@keyframes color {
+  from {
+    color: rgb(9, 9, 9);
+  }
+  to {
+    color: red;
+  }
+}
+.Explain-dicount-Off {
+  color: rgb(30, 30, 30);
+  font-size: 14px;
+  padding-top: 2px;
+  padding-left: 1px;
+  width: 780px;
+  padding-bottom: 32px;
+  margin-top: 1px;
+}
+.card {
+  width: 24rem;
+  margin-top: 100px;
+
+  margin-left: 34px;
+  margin-right: 34px;
+  display: inline;
+}
+.card-body {
+  background-color: rgb(238, 249, 206);
+  border: 1px solid rgb(233, 244, 200);
+}
+.card-text {
+  width: 350px;
+  display: inline;
+}
+.card-img-top {
+  display: inline;
+}
+.opening-day {
+  margin-top: 20px;
+}
+ul {
+  list-style-type: none;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.img-footer {
+  width: 60px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+.elm-footer {
+  margin-top: 5px;
+}
+.line {
+  position: relative;
+  right: 40px;
+}
+.Copyright {
+  position: relative;
+  left: 230px;
+  line-height: 1;
+}
+.img-footer {
+  width: 60px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+}
